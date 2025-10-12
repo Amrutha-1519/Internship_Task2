@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & To-Do Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#todo">To-Do List</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section id="contact" class="contact-form-area">
+        <h2>Contact Form</h2>
+        <form id="contactForm">
+          <label>Name: <input type="text" id="name"></label>
+          <span class="error" id="nameError"></span>
+          <label>Email: <input type="email" id="email"></label>
+          <span class="error" id="emailError"></span>
+          <label>Message: <textarea id="message"></textarea></label>
+          <span class="error" id="messageError"></span>
+          <button class="button1" type="submit">Send</button>
+        </form>
+        <div id="contactSuccess" style="display:none; color:green; font-size: x-large;">Form submitted successfully!</div>
+      </section>
+      <section id="todo" class="todo-list-area">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; A simple Contact Form And To-Do List </p>
+    </footer>
+  </div>
+  <script src="pagescript.js"></script>
+</body>
+</html>

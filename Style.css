@@ -1,0 +1,148 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4f9;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main-content"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+  background: #3498db;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-content {
+  display: grid;
+  grid-area: main-content;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.contact-form-area, .todo-list-area {
+  background: rgb(230, 190, 247);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0.5,0.5,0.5,0.5);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.7rem;
+  border: 1.5px solid #000000;
+  border-radius: 10px;
+}
+
+button {
+  background: #ff0062;
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px black;
+}
+
+button:hover {
+  background: #fc5cb4;
+}
+.button1 {
+  background: #ff0062;
+  color: white;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px black;
+}
+
+.button1:hover {
+  background: #fc5cb4;
+  transition: 0.5s ease;
+  transform: translate(-20px,-10px);
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  grid-area: footer;
+  background: #2d3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* To-do list styling */
+#taskList li {
+  background: #eef7fe;
+  border: 1px solid black;
+  margin: 0.4rem 0;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#taskList button {
+  background: #e74c3c;
+  padding: 0.3rem 0.7rem;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-area, .todo-list-area {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .container {
+    padding: 10px;
+  }
+}
