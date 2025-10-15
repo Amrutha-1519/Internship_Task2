@@ -21,5 +21,9 @@
 ## 🚀Project setup
 
 ```bash
-### 1.Clone project
-git clone 
+1.Clone project
+git clone https://github.com/Amrutha-1519/Internship_Task2.git
+
+2.Open the index.html file in your web browser
+
+```
