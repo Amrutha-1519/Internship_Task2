@@ -6,16 +6,16 @@
 
 ## 🚀Features
 
-### ⁕ Contact Form : Validates the required fields and checks for a correct email format.It also provides instant user feedback for errors and succesful submissions.
+### ⁕ Contact Form : Validates the required fields and checks for a correct email format.It also provides ***instant user feedback for errors and succesful submissions.***
 ### ⁕ To-Do List : Add and delete task dynamically with instant updates , *no refresh needed*.
-### ⁕ Responsive Design : CSS Flexbox navigation bar,CSS Grid content sections and **media queries for great usability and mobie,tablet and desktop screens**.
+### ⁕ Responsive Design : CSS Flexbox navigation bar,CSS Grid content sections and ***media queries for great usability and mobile,tablet and desktop screens.***
 ### ⁕ Modern styling : Clean colourfull and redable CSS Layout and styling.
 
 
 ## 💻Technologies Used
 
 ### ⁕ HTML5 <- For structuring the contact form by using `<form>`,`<input>`,`<label>` and to-do list by using `<Section>`,`<button>`,`<header>`,`<footer>` etc.
-### ⁕ CSS <- Structurde a webpage using Flexbox for navigation and Grid for content areas,responsive media queries.
+### ⁕ CSS <- Structured a webpage using Flexbox for navigation and Grid for content areas,responsive media queries.
 ### ⁕ JavaScript <- Form Validation and task interaction.
 
 ## 🚀Project setup
