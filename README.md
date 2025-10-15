@@ -15,7 +15,7 @@
 ## 💻Technologies Used
 
 ### ⁕ HTML5 <- For structuring the contact form by using `<form>`,`<input>`,`<label>` and to-do list by using `<Section>`,`<button>`,`<header>`,`<footer>` etc.
-### ⁕ CSS <- Structured a webpage using Flexbox for navigation and Grid for content areas,responsive media queries.
+### ⁕ CSS <- Structured a webpage using Flexbox for navigation and Grid for content areas,responsive media queries and ***added backgroun image for the contact form and to-do list.*** 
 ### ⁕ JavaScript <- Form Validation and task interaction.
 
 ## 🚀Project setup
