@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f0f4f9;
+  background: #e89af8;
 }
 
 .container {
@@ -18,8 +18,9 @@ body {
 
 header {
   grid-area: header;
-  background: #3498db;
+  background: #8f2195;
   color: white;
+  font-size: x-large;
 }
 
 .navbar {
@@ -51,10 +52,11 @@ header {
 }
 
 .contact-form-area, .todo-list-area {
-  background: rgb(230, 190, 247);
+  color:white;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0.5,0.5,0.5,0.5);
+  background-image:url(flower11.jpg) ;
 }
 
 form label {
