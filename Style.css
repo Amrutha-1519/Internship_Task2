@@ -37,7 +37,7 @@ header {
 }
 
 .nav-list a {
-  color: white;
+  color:white;
   text-decoration: none;
   font-weight: bold;
   padding: 300px;
@@ -125,6 +125,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color:#000000;
 }
 #taskList button {
   background: #e74c3c;
